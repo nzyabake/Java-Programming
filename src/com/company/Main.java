@@ -26,5 +26,22 @@ public class Main {
         } else {
             System.out.println("Invalid input");
         }
+
+
+        //Switch case
+        int year = (20);
+        switch (year) {
+            case 20 -> System.out.println("Happy 20th birthday");
+            case 21 -> System.out.println("You are beyond 20");
+            default -> System.out.println("Invalid input");
+        }
+
+        ///Enhanced for loop
+        String array[] = {"Computing", "Informatics", "Cybersecurity"};
+
+        for (String x:array)
+        {
+            System.out.println(x);
+        }
     }
 }
