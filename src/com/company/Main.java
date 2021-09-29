@@ -43,5 +43,12 @@ public class Main {
         {
             System.out.println(x);
         }
+
+        //for loop
+
+        for (int number = (1); number <= 10; number = number +2)
+        {
+            System.out.println(number);
+        }
     }
 }
