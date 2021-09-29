@@ -50,5 +50,14 @@ public class Main {
         {
             System.out.println(number);
         }
+
+        //While loops
+
+        int val = (2);
+        do {
+            System.out.println(val);
+            val++;
+        }
+        while (val < 10);
     }
 }
